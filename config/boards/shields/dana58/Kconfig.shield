@@ -1,0 +1,5 @@
+config SHIELD_DANA58_LEFT
+    def_bool $(shields_list_contains,dana58_left)
+
+config SHIELD_DANA58_RIGHT
+    def_bool $(shields_list_contains,dana58_right)
